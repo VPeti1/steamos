@@ -13,7 +13,7 @@ https://drive.proton.me/urls/G143P5BBGW#UhhWOw0WQOGH
 You need to be using Arch Linux
 See the patches that were made below  
 
-### Downstream (Offial? kinda, directly from the leak):
+### Downstream (Official? kinda, directly from the leak):
 
 You need to be using SteamOS 3.5.x
 
