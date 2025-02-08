@@ -2,8 +2,8 @@
 # shellcheck disable=SC2034
 
 iso_name="SteamOS"
-iso_label="steamdeck-repair_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
-iso_publisher="SteamOS <https://store.steampowered.com/steamdeck/>"
+iso_label="upstream-steamdeck-repair_$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y%m)"
+iso_publisher="VPeti1"
 iso_application="SteamOS Live/Rescue image"
 iso_version="$(date --date="@${SOURCE_DATE_EPOCH:-$(date +%s)}" +%Y.%m.%d)"
 install_dir="arch"
@@ -27,3 +27,4 @@ file_permissions=(
   ["/usr/local/bin/Installation_guide"]="0:0:755"
   ["/usr/local/bin/livecd-sound"]="0:0:755"
 )
+cowspace_size="5G"
