@@ -21,3 +21,5 @@ git clone https://github.com/VPeti1/steamos.git
 chmod +x build.sh
 ## Run the script
 ./build
+# Password
+The password for the deck user is deck
