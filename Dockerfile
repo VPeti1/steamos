@@ -6,9 +6,7 @@ RUN sudo pacman -Syu --noconfirm \
     && sudo pacman -S --noconfirm git archiso bash \
     && sudo pacman -Scc --noconfirm
 
-RUN git clone --branch downstream https://github.com/VPeti1/steamos.git /steamos
-
-WORKDIR /steamos
+RUN git clone --branch downstream https://github.com/VPeti1/steamos.git
 
 RUN chmod +x build.sh
 
