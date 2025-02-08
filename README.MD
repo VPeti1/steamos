@@ -1,6 +1,8 @@
 # SteamOS 3 leaked recovery image build files
 # ISO download for upstream (Github):
 https://github.com/VPeti1/steamos/releases/tag/isov2
+# ISO download for upstream (Proton):
+https://drive.proton.me/urls/G143P5BBGW#UhhWOw0WQOGH
 # How to build (Manual)
 ## Clone the repo
 git clone https://github.com/VPeti1/steamos.git
