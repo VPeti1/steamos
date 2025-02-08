@@ -1,25 +1,50 @@
 # SteamOS 3 leaked recovery image build files
-# ISO download for upstream (Github):
+
+### ISO download for upstream:
 https://github.com/VPeti1/steamos/releases/tag/isov2
-# ISO download for upstream (Proton):
 https://drive.proton.me/urls/G143P5BBGW#UhhWOw0WQOGH
-# How to build (Manual)
-## Clone the repo
-git clone https://github.com/VPeti1/steamos.git
-## Select branch
-git fetch --all && git checkout [upstream]
-## Build it
-sudo ./mkarchiso -v ./
+
+# Building
+
+## Requirements for Building:
+
 ### Upstream:
-You need to be using Arch linux 
-## Downstream:
+
+You need to be using Arch Linux
+See the patches that were made below  
+
+### Downstream (Offial? kinda, directly from the leak):
+
 You need to be using SteamOS 3.5.x
-# How to build (automatic):
-## Clone the repo
-git clone https://github.com/VPeti1/steamos.git
-## CHMOD the build script
-chmod +x build.sh
-## Run the script
-./build
+
+## Manual Building:
+
+ Clone this repository.
+ > git clone https://github.com/VPeti1/steamos.git
+
+ Select your desired branch.
+ > git fetch --all && git checkout [upstream/downstream]
+
+ Make the customized mkarchiso script executable.
+ > chmod +x ./mkarchiso
+
+ Run 
+ > sudo ./mkarchiso -v . 
+
+## Automatic Building:
+
+### Clone the repo
+
+> git clone https://github.com/VPeti1/steamos.git
+
+### CHMOD the build script
+
+> chmod +x build.sh
+
+### Run the script
+
+> ./build
+
 # Password
+
 The password for the deck user is deck
