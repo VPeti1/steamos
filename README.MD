@@ -48,3 +48,6 @@ See the patches that were made below
 ### Run the script
 
 > ./build
+
+# Variations
+#### If you want to check out variations of this project read VERSIONS.md
