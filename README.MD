@@ -3,6 +3,9 @@
 # Download for downstream (Github):
 https://github.com/VPeti1/steamos/releases/tag/dwnstrm_iso_v1
 
+# Download for downstream (MEGA):
+https://mega.nz/file/5V5BCQbb#CN8ktW_IEE73qU7tanmkJLqG0Wsl-A3qc9Gmt-GV0yo
+
 # Branches
 
 ## Upstream (Recommended)
