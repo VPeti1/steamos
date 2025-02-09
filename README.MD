@@ -2,6 +2,7 @@
 
 ### ISO download for upstream:
 https://github.com/VPeti1/steamos/releases/tag/isov2
+
 https://drive.proton.me/urls/G143P5BBGW#UhhWOw0WQOGH
 
 # Branches
@@ -50,3 +51,7 @@ See the patches that were made below
 # Password
 
 The password for the deck user is deck
+
+
+# Variations
+#### If you want to check out variations of this project read VERSIONS.md
