@@ -1,5 +1,8 @@
 # SteamOS 3 leaked recovery image build files
 
+# Download for downstream (Github):
+https://github.com/VPeti1/steamos/releases/tag/dwnstrm_iso_v1
+
 # Branches
 
 ## Upstream (Recommended)
