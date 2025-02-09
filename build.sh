@@ -19,22 +19,17 @@ fi
 
 git fetch --all
 
+echo "Do you want to check the Git branch's upstream or downstream?"
+echo "1. Upstream"
+echo "2. Downstream"
+read -p "Please enter 1 for Upstream or 2 for Downstream: " choice
 
-if [[ -f /etc/os-release ]]; then
-    . /etc/os-release
-    if [[ "$ID" == "arch" ]]; then
-        echo "The system is running Arch Linux."
-        git checkout upstream
-    elif [[ "$ID" == "steamos" ]]; then
-        echo "The system is running SteamOS."
-        git checkout downstream
-    else
-        echo "The system is not Arch Linux or SteamOS!"
-        exit 1
-
-    fi
+if [[ "$choice" -eq 1 ]]; then
+    git checkout upstream
+elif [[ "$choice" -eq 2 ]]; then
+    git checkout downstream
 else
-    echo "/etc/os-release not found. Unable to determine the OS."
+    echo "Invalid choice. Please select 1 or 2."
     exit 1
 fi
 
