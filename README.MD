@@ -4,18 +4,20 @@
 https://github.com/VPeti1/steamos/releases/tag/isov2
 https://drive.proton.me/urls/G143P5BBGW#UhhWOw0WQOGH
 
+# Branches
+
+## Upstream (Recommended)
+SteamOS recovery with the regular Arch linux mirrors
+
+## Downstream (Kinda official)
+SteamOS recovery with the official Valve mirrors
+
 # Building
 
 ## Requirements for Building:
 
-### Upstream:
-
 You need to be using Arch Linux
-See the patches that were made below  
-
-### Downstream (Official? kinda, directly from the leak):
-
-You need to be using SteamOS 3.5.x
+See the patches that were made below
 
 ## Manual Building:
 
