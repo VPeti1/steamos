@@ -1,3 +1,6 @@
+# UPDATE
+Developement coninues on GitLab: https://gitlab.com/VPeti11/
+
 # SteamOS 3 leaked recovery image build files
 
 ### ISO download for upstream:
